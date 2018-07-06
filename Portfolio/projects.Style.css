@@ -1,0 +1,9 @@
+nav{
+    font-size: 40px;
+    width: 70%;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+a:hover{
+    color: crimson;
+}

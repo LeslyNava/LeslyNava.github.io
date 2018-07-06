@@ -1,0 +1,20 @@
+body{
+    background-color: azure
+}
+iframe{
+    border-style:dotted;
+    border-width:thick;
+    border-color: darkblue;
+    margin-left: 7em;
+}
+#nav{
+    font-size: 40px;
+    width: 70%;
+    margin-left: 6em;
+    
+    
+    }
+
+a:hover{
+    color: crimson;
+}
