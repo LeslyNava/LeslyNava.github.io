@@ -12,10 +12,10 @@ body{
 }
 #nav{
     font-size: 40px;
-    width: 70%;
-    margin-left: 9em;
-    margin-right: 6em;
-}
+    width:80%;
+    margin-left: 5em;
+    
+    }
 a:hover{
     color: crimson;
 }
