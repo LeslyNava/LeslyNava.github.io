@@ -30,3 +30,11 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
+p{
+float: left
+}
+img{
+    float: center;
+    width: 20%;
+    box-sizing: border-box;
+}
