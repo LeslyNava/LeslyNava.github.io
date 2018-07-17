@@ -30,11 +30,12 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
 }
-p{
-float: left
-}
 img{
-    float: center;
-    width: 20%;
-    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 50%;
+}
+iframe{
+    float: left;
 }
