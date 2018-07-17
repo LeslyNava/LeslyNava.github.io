@@ -30,3 +30,7 @@ li a:hover:not(.active) {
 #symptoms{
     margin-top: 35%;
 }
+p{
+    width:100%;
+    border-style: solid;
+}
