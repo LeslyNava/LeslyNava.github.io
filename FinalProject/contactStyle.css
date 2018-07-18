@@ -16,7 +16,7 @@ a{
  float: center;
 }
     ul {
-    width: 50%;
+    width: 100%;
     list-style-type: none;
     margin: 2 em;
     padding: 0;
@@ -35,7 +35,7 @@ li {
 
 li a {
     display: block;
-    color:rgb(221, 19, 154);
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
