@@ -1,36 +1,68 @@
-    ul {
-    width: 50%;
-    list-style-type: none;
-    margin: 2 em;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    display: inline;
-    float: right;
+   * {
+    box-sizing: border-box;
 }
 
-li {
+nav {
+    width: 100%;
     float: left;
-    background-color:white;
+}
+
+nav a {
     width: 25%;
-    
-}
-
-li a {
-    display: block;
-    color:rgb(221, 19, 154);
-    text-align: center;
-    padding: 14px 16px;
+    float: left;
     text-decoration: none;
+    color: white;
+    background-color: mediumpurple;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    transition: 0.25s;
+    font-family: sans-serif;
+    letter-spacing: 2px;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+nav a:hover {
+    background-color: rebeccapurple;
 }
+
 #symptoms{
-    margin-top: 35%;
+    font-size: 20px;
+    width: 40%;
+    float:left;
 }
-p{
-    width:100%;
-    border-style: solid;
+#symp{
+    float: left;
+    width: 40%;
+}
+
+
+
+#treatment{
+    font-size: 20px;
+     width: 40%;
+    float: left; 
+}
+#treat{
+    float: left;
+    width: 40%;
+}
+
+
+
+
+
+#prevention{
+    font-size: 20px;
+    width: 40%;
+    float: left;
+}
+#prevent{
+    float: left;
+        width: 40%;
+}
+
+div {
+    width: 100%;
+    float: left;
+    padding: 16px;
 }
