@@ -50,10 +50,9 @@ li a:hover:not(.active) {
 }
 
 img{
-    margin-left: auto;
-    margin-right: auto;
     width: 10%;
     border-radius: 50%;
+    display: block;
 }
 iframe{
     float: left;
