@@ -1,4 +1,4 @@
-   * {
+    * {
     box-sizing: border-box;
 }
 
@@ -11,8 +11,8 @@ nav a {
     width: 25%;
     float: left;
     text-decoration: none;
-    color: white;
-    background-color: mediumpurple;
+    color: black;
+    background-color:rgb(252, 245, 121);
     text-align: center;
     font-size: 25px;
     padding: 15px;
@@ -22,8 +22,9 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rebeccapurple;
+    background-color: white;
 }
+
 
 #symptoms{
     font-size: 20px;
