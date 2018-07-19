@@ -28,7 +28,7 @@ a{
 
 li {
     float: left;
-    background-color: white;
+    background-color: rgb(252, 245, 121);
     width: 25%;
     
 }
@@ -42,7 +42,7 @@ li a {
 }
  
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: white;
 }
 
 img{
