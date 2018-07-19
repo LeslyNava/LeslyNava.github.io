@@ -13,7 +13,6 @@
 nav {
     width: 100%;
     float: left;
-    background-color: rgb(252, 245, 121);
 }
 
 nav a {
@@ -21,7 +20,7 @@ nav a {
     float: left;
     text-decoration: none;
     color: black;
-    background-color: rgb(252, 245, 121);
+    background-color:rgb(252, 245, 121);
     text-align: center;
     font-size: 25px;
     padding: 15px;
@@ -40,7 +39,8 @@ nav a:hover {
         display: block;
         color: rgb(211, 25, 158);
         margin-left:auto;
-        margin-right: auto
+        margin-right: auto;
+        font-size: 60px;
     }
     div
     {
@@ -57,6 +57,33 @@ nav a:hover {
         display: block;
         
     }
+    #p1{
+        width:80%;
+        text-align: center;
+        display: block;
+        color: rgb(211, 25, 158);
+        margin-left:auto;
+        margin-right: auto;
+        font-size:30px;
+    }
+#cat {
+    width: 90%;
+    height:100px;
+    display: block;
+    padding: 0.5em;
+    margin: 1em 0px 0px 0px;
+    font-family: sans-serif;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: black;
+    background-color:rgb(252, 245, 121);
+    text-align: center;
+    padding: 15px;
+    transition: 0.25s;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-left:auto;
+    margin-right: auto;
+    } 
 
 }
-
