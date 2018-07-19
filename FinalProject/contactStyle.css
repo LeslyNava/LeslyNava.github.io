@@ -1,15 +1,16 @@
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 786px){
     img{
-        float: left;
         display: block;
+        width: 50%;
     }
   
-    iframe{
-        width: 100%;
-    }
     p{ float: left;
     width: 50%;
     }
+    iframe{ 
+    width: 80%;}
+    body{ 
+    float: left;}
 }
 
 a{  
@@ -18,7 +19,7 @@ a{
     ul {
     width: 100%;
     list-style-type: none;
-    margin: 2 em;
+    margin: 2 em;  
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -28,7 +29,7 @@ a{
 
 li {
     float: left;
-    background-color: rgb(252, 245, 121);
+    background-color:rgb(252, 245, 121);
     width: 25%;
     
 }
@@ -46,7 +47,7 @@ li a:hover:not(.active) {
 }
 
 img{
-    width: 10%;
+    width: 8%;
     border-radius: 50%;
     display: block;
 }
