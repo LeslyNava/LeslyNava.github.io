@@ -1,9 +1,7 @@
-@media only screen and (max-width: 786px){
+@media only screen and (min-width: 750px) and (max-width: 1030px) and (orientation: portrait){
     img{
         display: block;
-        width: 50%;
     }
-  
     p{ float: left;
     width: 50%;
     }
@@ -12,6 +10,10 @@
     body{ 
     float: left;}
 }
+@media only screen and (min-width: 750px) and (max-width: 1030px) and (orientation: landscape){
+    
+}
+
 
 a{  
  float: center;
@@ -57,24 +59,4 @@ iframe{
 }
 h1{
     font-size: 15px;
-}
- #cat {
-    width: 90%;
-    height:150px;
-    display: block;
-    padding: 0.5em;
-    margin: 1em 0px 0px 0px;
-    font-family: sans-serif;
-    font-size: 1.25em;
-    text-decoration: none;
-    background-color:rgb(252, 245, 121);
-    text-align: center;
-    padding: 15px;
-    transition: 0.25s;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    margin-left:auto;
-    margin-right: auto;
-     margin-top:7em;
-    } 
 }
