@@ -1,25 +1,51 @@
-<!DOCTYPE>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel= "stylesheet" type="text/css" href="prototypeStyle.css">
-  </head>
-  <body>
-    <nav>
-        <a href="index.html"> Home</a>
-        <a href="background.html"> Background Info </a>
-        <a href="prototype.html"> Our Product </a>
-        <a href="contact.html"> Contact Us</a>
-    </nav>
-      <h1>Prototype</h1>
-      <h2>Childrens Book</h2>
-    <p>In this book you be able to learn the importance of washing hands in order to prevent the flu. </p>
-  <img src="IMG-3995.JPG" width="300" height="250">
-      <h2>Magic Flu Fighting Soap</h2>
-      <p>With this magical soap that changes color. It is big to ensure that it does not fit in anyones mouth.</p>
-      <img src="IMG-4004.JPG" width="300" height="250">
-      
+ * {
+    box-sizing: border-box;
+}
 
- </body>
-</html>
+nav {
+    width: 100%;
+    float: left;
+}
+
+nav a {
+    width: 25%;
+    float: left;
+    text-decoration: none;
+    color: black;
+    background-color:rgb(252, 245, 121);
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    transition: 0.25s;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    background-color: white;
+}
+p{
+    float: left;
+    font-size: 20px;
+    width: 55%;
+    padding: 1em; 
+    border-style: dashed;
+    border-color: orange;
+    margin: 2em;
+    padding: 2em;
+}
+h2{
+    float: left;
+    width: 70%;
+ font-family: 'Merienda', cursive;
+    font-size: 25px;
+}
+img{
+  display: block;
+    float: left;
+    width: 30%;
+}
+h1{
+    text-align: center;
+    font-size: 37px;
+}
