@@ -1,33 +1,41 @@
-@media only screen and (min-width: 750px) and (max-width: 1030px) and (orientation: portrait){
+@media only screen and (min-width: 750px) and (max-width: 1366px) and (orientation: portrait){
 }
 * {
     box-sizing: border-box;
 }
 
-nav {
+a{  
+ float: center;
+}
+    ul {
     width: 100%;
-    float: left;
-     }}
-
-nav a {
-    width: 25%;
-    float: left;
-    text-decoration: none;
-    color: black;
-    background-color:rgb(252, 245, 121);
-    text-align: center;
-    font-size: 25px;
-    padding: 15px;
-    transition: 0.25s;
-    font-family: sans-serif;
-    letter-spacing: 2px;
+    list-style-type: none;
+    margin: 2 em;  
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: inline;
+    float: right;
 }
 
-nav a:hover {
+li {
+    float: left;
+    background-color:rgb(252, 245, 121);
+    width: 25%;
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+li a:hover:not(.active) {
     background-color: white;
 }
-
-
 
 #symptoms{
     font-size: 20px;
