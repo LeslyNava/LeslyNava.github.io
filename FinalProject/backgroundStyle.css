@@ -4,38 +4,6 @@
     box-sizing: border-box;
 }
 
-a{  
- float: center;
-}
-    ul {
-    width: 100%;
-    list-style-type: none;
-    margin: 2 em;  
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    display: inline;
-    float: right;
-}
-
-li {
-    float: left;
-    background-color:rgb(252, 245, 121);
-    width: 25%;
-    
-}
-
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
- 
-li a:hover:not(.active) {
-    background-color: white;
-}
 
 #symptoms{
     font-size: 20px;
