@@ -1,2 +1,2 @@
 # LeslyNava.github.io
-Al my progect for smash updated version
+A/l my projects for SMASH....an updated version
