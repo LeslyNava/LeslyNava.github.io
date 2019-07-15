@@ -1,31 +1,37 @@
 let bool = true;
 let fact;
 function setup(){
-	createCanvas(1000, 500);
-	background(199,223,240);
+	let pop=createCanvas(1000, 500);
+	background(184, 211, 255);
 	let start=createButton("building 1");
 	start.mousePressed(facts);
-	start.position(1060,160);
+	start.position(1015,360);
+	
 	let start1=createButton("building 2");
 	start1.mousePressed(facts2);
-	start1.position(1060,200);
+	start1.position(1015,400);
 	let start2=createButton("building 3")
 	start2.mousePressed(facts3);
-	start2.position(1060, 240);
+	start2.position(1015, 440);
 	let start3=createButton("pine tree 1");
 	start3.mousePressed(facts4);
-	start3.position(1060, 280);
+	start3.position(1015, 480);
 	fact = createP("click a button to learn more");
+	// footer = createP("This website was created for This project is for <a href='http://www.smash.org/'>SMASH Berkeley 2018.</a>");
+	// footer.addClass('footer');
 }
 
-function draw(){ 
+function draw(){
 	drawBridge();
 	noStroke();
 		//sun//
-			fill(255,248,31);
-			ellipse(76,60, 95, 95);
-	stroke(5);
+			fill(255,237,105);
+			strokeWeight(2);
+			stroke(252,226,35);
+			ellipse(930,70, 90,90);
+			stroke(5);
 //background buildings//
+strokeWeight(10);
 	//building 1//
 	fill(55,79,110);
 	rect(240,100,200,500);
@@ -39,22 +45,94 @@ function draw(){
 	fill(95,114,135);
 	rect(600,90,150,500);
 	//building 4//
-	fill(162,166,171);
+	fill(30, 92, 102);
 	rect(500,140,115,500);
 	//building 6//
+	strokeWeight(8);
+	fill(186, 204, 197);
+	rect(500,240,205,500);
+	//building 7//
+	fill(47, 97, 62);
+	rect(740,150,150,500);
+	//building 8//
+	fill(67, 85, 115);
+	rect(140,500);
+	//building 9//
+	fill(65,70,110);
+	rect(840,300,200,500);
+
+
+function drawBridge(){
+	fill(230,76,16);
+	stroke(204,65,10);
+	//2 main straight line//
+		strokeWeight(20);
+		line(5, 100, 5,500);
+		line(65, 100,65,500);
+	//arcs//
+	fill(181,56,7);
+		strokeWeight(12);	
+    	noFill();
+    	line(7, 112, 65, 112);
+       	line(7, 162, 65, 162);
+       	line(7, 212, 65, 212);
+       	line(7, 262, 65, 262);
+     	angleMode(DEGREES); 
+     	strokeWeight(8);
+      	arc(315,95,500,410,90,180);
+      	arc(35, 150, 60, 70, -180, -90);
+      	arc(35, 150, 60, 70, -90,0);
+      	arc(35, 200, 60, 70, -180, -90);
+      	arc(35, 200, 60, 70, -90,0);
+      	arc(35, 250, 60, 70, -180, -90);
+      	arc(35, 250, 60, 70, -90,0);
+      	arc(35, 300, 60, 70, -180, -90);
+      	arc(35, 300, 60, 70, -90,0);
+     //small lines//
+     	strokeWeight(7);
+     	line(90, 190, 90,330);
+		line(110, 211,110,330);
+		line(130, 232,130,330);
+		line(150, 251,150,330);
+		line(170, 262,170,330);
+		line(190, 273,190,330);
+		line(210, 283,210,330);
+		line(225, 290,225,330);
+	//X-lines//
+		strokeWeight(7);
+		line(5, 350, 65, 350);
+			line(5, 350, 65, 400);
+			line(65, 350, 5, 400);
+		line(5, 400, 65, 400);
+		line(5, 420, 65, 420);
+			line(5, 420, 65, 470);
+			line(65, 420, 5, 470);
+		line(5, 470, 65, 470);
+	//vertical line//
+		strokeWeight(35);
+		line(2, 320, 400, 320);
+	//stone//
+		strokeWeight();
+		fill(151, 161, 166);
+		rect(0, 485, 85, 485);
+}
 
 //buildings with lights//
+		strokeWeight(3);
 		//tree1//
 			fill(23,153,40);
-			triangle(170, 475, 140, 400, 110, 475);
-			triangle(170, 450, 140, 375, 110, 450);
-			triangle(170, 425, 140, 350, 110, 425);
+			stroke(17,97,10);
+			triangle(270, 475, 240, 400, 210, 475);
+			triangle(270, 450, 240, 375, 210, 450);
+			triangle(270, 425, 240, 350, 210, 425);
 			//stump//
+			stroke(97,49,10);
 			fill(133,100,11);
-			rect(130,475,20,40);
+			rect(230,475,20,40);
 			
 		//building 1//
-			fill(2,3,23);
+			stroke('black');
+			fill(20, 16, 38);
 			rect(300, 200, 130, 490);
 		//building 2//
 			fill(60,62,92);
@@ -62,16 +140,28 @@ function draw(){
 		//building 3//
 			fill(15,17,48);
 			rect(700, 190, 230, 490);	
-		//tree//
+		//tree2//
 			fill(23,153,40);
+			stroke(17,97,10);
 			triangle(670, 475, 640, 400, 610, 475);
 			triangle(670, 450, 640, 375, 610, 450);
 			triangle(670, 425, 640, 350, 610, 425);
 			//stump//
 			fill(133,100,11);
+			stroke(97,49,10);
 			rect(630,475,20,40);
-			
+		//tree 3//
+			fill(23,153,40);
+			stroke(17,97,10);
+			triangle(990, 475, 960, 400, 930, 475);
+			triangle(990, 450, 960, 375, 930, 450);
+			triangle(990, 425, 960, 350, 930, 425);
+			//stump//
+			fill(133,100,11);
+			stroke(97,49,10);
+			rect(950,475,20,40);		
 		//windows//
+		stroke('black');
 			fill(255, 221, 110);
 
 			ventanas2(310,215,30,81);
@@ -87,9 +177,6 @@ function draw(){
 			ventanas4(710,310,50,60);
 			ventanas4(710,410,50,60);
 			
-}
-
-function drawBridge(){
 }
 
 function ventanas2(x,y,vSpace,hSpace){
