@@ -1,1 +1,20 @@
-  
+  #Graph{
+   position: center;
+}
+.data{
+    padding-left: 37vw;
+}
+p{
+    position: center;
+    font-size: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+h1{
+    padding-left: 1vw;
+    padding-top: 5p
+
+}
+body{
+    background-color: rgb(162,168,168);
+}
