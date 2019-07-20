@@ -3,20 +3,20 @@ let fact;
 function setup(){
 	let pop=createCanvas(1000, 500);
 	background(184, 211, 255);
-	let start=createButton("building 1");
+	let start=createButton("CO2 Emissions");
 	start.mousePressed(facts);
 	start.position(1015,360);
 	
-	let start1=createButton("building 2");
+	let start1=createButton("Restrictions and Reductions");
 	start1.mousePressed(facts2);
 	start1.position(1015,400);
-	let start2=createButton("building 3")
+	let start2=createButton("Electric Veichle Readiness")
 	start2.mousePressed(facts3);
 	start2.position(1015, 440);
-	let start3=createButton("pine tree 1");
+	let start3=createButton("Mean Consumption vs Cars");
 	start3.mousePressed(facts4);
 	start3.position(1015, 480);
-	fact = createP("click a button to learn more");
+	fact = createP("Click On A Button To Learn!");
 	// footer = createP("This website was created for This project is for <a href='http://www.smash.org/'>SMASH Berkeley 2018.</a>");
 	// footer.addClass('footer');
 }
